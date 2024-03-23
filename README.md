@@ -33,3 +33,49 @@ vim.keymap.set("i", "<C-Bslash>", "<Right>", { desc = "Jump one character right 
 vim.keymap.set("i", "<S-Enter>", "<C-O>o")
 
 ```
+
+## Plugin list
+
+- alpha-nvim
+- cmp-buffer 1.89ms
+- cmp-cmdline
+- cmp-nvim-lsp
+- cmp-nvim-lsp-signature-help
+- cmp-nvim-lua
+- cmp-path
+- cmp_luasnip
+- Comment.nvim
+- conform.nvim
+- friendly-snippets
+- inc-rename.nvim
+- indent-blankline.nvim
+- lazy.nvim
+- lspkind-nvim
+- lualine.nvim
+- LuaSnip
+- mason-lspconfig.nvim
+- mason.nvim
+- neo-tree.nvim
+- neodev.nvim
+- none-ls.nvim
+- nui.nvim
+- nvim-cmp
+- nvim-lspconfig
+- nvim-notify
+- nvim-surround
+- nvim-treesitter
+- nvim-treesitter-textobjects
+- nvim-web-devicons
+- plenary.nvim
+- StackMap
+- telescope-fzf-native.nvim
+- telescope-heading.nvim
+- telescope-rails.nvim
+- telescope-ui-select.nvim
+- telescope.nvim
+- todo-comments.nvim
+- tokyonight.nvim
+- trouble.nvim
+- vim-be-good
+- vim-sleuth
+- which-key.nvim
