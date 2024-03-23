@@ -1,7 +1,8 @@
 # My nvim config
 
-Thanks to @typecraft I've created modularized nvim config.
-Added many interesting plugins.
+# Thanks
+- @typecraft - for his great video-tutorial about creating modularized nvim config,
+- @Tj DeVries - for great nvim-kickstart project from I've learnt many useful things, and copied some ideas.
 
 ## My own mappings to speed up workflow a bit:
 
