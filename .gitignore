@@ -2,3 +2,4 @@ spell/
 lazy-lock.json
 .luarc.json
 cheatsheets/
+.DS_Store
