@@ -6,8 +6,9 @@ vim.cmd([[nnoremap <expr> j (v:count > 1 ? "m'" . v:count : '') . 'j']])
 -- [[ Miscelanous ]]
 
 -- Adding empty lines above and below cursor in normal mode
-vim.keymap.set("n", "<C-M-j>", ':call append(line("."), "")<CR>', { desc = "Add empty line below" })
-vim.keymap.set("n", "<C-M-k>", ':call append(line(".")-1, "")<CR>', { desc = "Add empty line above" })
+--  Chars '∆' and 'Ż' are generated pressing <Option-j> and <Option-k>. It's simple and nice workaround.
+vim.keymap.set("n", "∆", ':call append(line("."), "")<CR>', { desc = "Add empty line below" })
+vim.keymap.set("n", "Ż", ':call append(line(".")-1, "")<CR>', { desc = "Add empty line above" })
 
 -- Jump over one character in insert mode, ie to skip automatically added parenthesis
 vim.keymap.set("i", "<C-Bslash>", "<Right>", { desc = "Jump one character right in insert mode" })
